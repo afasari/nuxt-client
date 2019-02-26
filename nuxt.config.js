@@ -51,7 +51,13 @@ module.exports = {
     }
   },
   modules: [
-    '@nuxtjs/vuetify'
+    '@nuxtjs/pwa',
+    '@nuxtjs/dotenv',
+    '@nuxtjs/vuetify',
+    'nuxt-sweetalert2',
+    ['nuxt-validate', {
+      lang: 'id',
+    }]
   ],
 
   // Vuetify options
