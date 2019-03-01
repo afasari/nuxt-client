@@ -55,6 +55,31 @@ module.exports = {
     '@nuxtjs/dotenv',
     '@nuxtjs/vuetify',
     'nuxt-sweetalert2',
+    ['../modules/nuxt-i18n', {
+      locales: ['en', 'id'],
+      defaultLocale: 'en',
+      locales: [
+        {
+          code: 'en',
+          iso: 'en-US'
+        },
+        {
+          code: 'id',
+          iso: 'id-ID'
+        }
+      ],
+      vueI18n: {
+        fallbackLocale: 'en',
+        messages: {
+          en: {
+            welcome: 'Welcome'
+          },
+          id: {
+            welcome: 'Selamat Datang'
+          }
+        }
+      }
+    }],
     ['nuxt-validate', {
       lang: 'id',
     }]
