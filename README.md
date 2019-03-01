@@ -1,6 +1,6 @@
-# eventevent.com
+# Nuxt Client
 
-> Discover Event Ticket
+> Nuxt Responsive Client with vuetify
 
 ## Build Setup
 
